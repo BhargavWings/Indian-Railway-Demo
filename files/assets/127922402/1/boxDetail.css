@@ -1,0 +1,241 @@
+#mainContainer,#mainUnSafeContainer,#orangeMainContainer{
+    position:absolute;
+    top:5%;
+    right:2%;
+    display:block;
+    height:max-content;
+    width:340px;
+    background:rgba(0, 0, 0, 0.75);
+   border-radius: 10px;
+    /* padding:20px; */
+     font-family:'Poppins', sans-serif;
+    font-style: normal;
+}
+#logoAndStatus,#unsafeLogoAndStatus,#orangelogoAndStatus{
+    display:flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    /* margin-top:-15px; */
+}
+#img,#unsafeImg,#orangeImg{
+    padding:5px;
+     height:25px;
+     width:25px;
+}
+
+#safeLine,#unsafeLine,#orangeLine{
+    width:340px;
+    height:1px;
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
+/* #container,#unsafeContainer,#orangeContainer{
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+padding:10px;
+line-height: 1.6;
+} */
+
+
+
+#safe, #unsafe,#critical{
+color:white;
+text-align:left;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size:0.9em;
+}
+
+#itemCode,#unsafeItemCode,#orangeItemCode{
+ color:#AFAFAF;
+ text-align:left;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#itemCodeDetails,#unsafeItemCodeDetails,#orangeItemCodeDetails{
+color:white;
+
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#sealDateAndTime,#unsafeSealDateAndTime,#orangeSealDateAndTime{
+ color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+#sealDateAndTimeDetails,#unsafeSealDateAndTimeDetails,#orangeSealDateAndTimeDetails{
+    color:white;
+     font-size:0.6em;
+     font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#weight,#unsafeWeight,#orangeWeight{
+ color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#weightDetails,#unsafeWeightDetails,#orangeWeightDetails{
+color:white;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+#size,#unsafeSize,#orangeSize{
+ color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#sizeDetails,#unsafeSizeDetails,#orangeSizeDetails{
+color:white;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+#boxLocation,#unsafeBoxLocation,#orangeBoxLocation{
+ color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#locationDetails,#unsafeLocationDetails,#orangeLocationDetails{
+color:white;
+font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:0.6em;
+     
+}
+#temperature,#unsafeTemperature,#orangeTemperature{
+ color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#temperatureDetails{
+color:#A9CF54;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+ 
+}
+#unSafeTemperatureDetails{
+color:#FD5C59;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+#orangeTemperatureDetails{
+color:#FF9934;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+#preferredTemp,#unsafePreferredTemp,#orangePreferredTemp{
+    color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400; 
+}
+#preferredTempDetails,#unsafePreferredTempDetails,#orangePreferredTempDetails{
+    color:white;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+#note,#unsafeNote,#orangeNote{
+ color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#noteDetails,#unsafeNoteDetails,#orangeNoteDetails{
+color:white;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#tolerance,#unsafeTolerance,#orangeTolerance{
+     color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    /* margin-top: 25px; */
+}
+#toleranceDetails,#unsafeToleranceDetails,#orangeToleranceDetails{
+    color:white;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#fieldContainer,#unsafeFieldContainer,#orangeFieldContainer{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:5px;
+     height: 100%;
+     padding:5px;
+}
+ #field,#unsafeField,#orangeField{
+  flex-basis: 48%
+} 
+ #fieldDetails,#unsafeFieldDetails,#orangeFieldDetails{
+    text-align: left;
+     flex-basis: 48%
+} 
+#lock,#unsafeLock,#orangeLock{
+color:#AFAFAF;
+  font-size:0.6em;
+  font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#lockDetails,#orangeLockDetails{
+    color:white;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#unsafeLockDetails{
+      color:#FD5C59;
+ font-size:0.6em;
+ font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
