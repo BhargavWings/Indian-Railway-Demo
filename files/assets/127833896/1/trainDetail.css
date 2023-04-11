@@ -3,87 +3,88 @@
     src:url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 } */
 #trainDetails{
-    position:absolute;
-    bottom:3%;
-    left:2%;
-    display:block;
-    height:132px;
-    width:250px;
-    background:rgba(0, 0, 0, 0.75);
-    border-radius:10px;
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+    display: block;
+    height: 132px;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
     font-size: 100%;
-    /* padding:10px; */
-     font-family:'Poppins', sans-serif;
-    font-style: normal;  
+    /* padding: 10px; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+   
 }
-#trainNameAndBoxes{
-    display:flex;
+#trainNameAndBoxes {
+       display: flex;
     flex-direction: column;
-    padding:10px;
+    padding: 10px;
 }
 #trainName{
-   text-align:left;
-   margin-top:-8px;
-     font-family:'Poppins', sans-serif;
+      text-align: left;
+    margin-top: -8px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1em;
-    color:#FFFFFF;
+    color: #FFFFFF;
     align-items: left;
     line-height: 30px;
 }
 #totalBoxes{
-    text-align:left;
-    font-family:'Poppins', sans-serif;
+       text-align: left;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 0.6em;
-    color:white;
-    margin-top:-8px;
+    color: white;
+    margin-top: -8px;
 }
 #container{
     padding-top: 10px;
-    /* line-height: 1.6 */
+    line-height: 1.6
 }
 #speed{
-    text-align:left;
-     font-family:'Poppins', sans-serif;
+      text-align: left;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 0.6em;
-    color:white;
+    color: white;
 }
 #location{
- text-align:left;
-     font-family:'Poppins', sans-serif;
+ text-align: left;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 0.6em;
-    color:white;
-    margin-top:-1px;
+    color: white;
+    margin-top: -1px;
 }
 #updated{
- text-align:left;
-     font-family: 'Poppins', sans-serif;
+     text-align: left;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 0.5em;
-    color:white;
-    margin-top:-1px;
+    color: white;
+    margin-top: -1px;
 }
 .details{
     color:#AFAFAF;
 }
-#speedandLocation{
-    display:flex;
-    flex-direction:column;
-  padding:10px;
-  margin-top:-5px;
-}
 
 #line{
-    width:250px;
-    height:1px;
+      width: 250px;
+    height: 1px;
     background: rgba(255, 255, 255, 0.2);
-    margin-top:-8px;
+    margin-top: -8px;
+}
+#speedandLocation{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: -5px;
 }
