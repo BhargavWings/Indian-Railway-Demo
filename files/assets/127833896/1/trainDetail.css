@@ -4,10 +4,10 @@
 } */
 #trainDetails{
     position: absolute;
-    bottom: 3%;
+    bottom: 4%;
     left: 2%;
     display: block;
-    height: 132px;
+    height: 175px;
     width: 250px;
     background: rgba(0, 0, 0, 0.75);
     border-radius: 10px;
@@ -40,7 +40,7 @@
     font-weight: 400;
     font-size: 0.6em;
     color: white;
-    margin-top: -8px;
+    margin-top: -2px;
 }
 #container{
     padding-top: 10px;
@@ -53,6 +53,7 @@
     font-weight: 400;
     font-size: 0.6em;
     color: white;
+      margin-top: -8px;
 }
 #location{
  text-align: left;
@@ -71,7 +72,7 @@
     font-size: 0.5em;
     color: white;
     margin-top: -1px;
-}
+} 
 .details{
     color:#AFAFAF;
 }
@@ -87,4 +88,26 @@
     flex-direction: column;
     padding: 10px;
     margin-top: -5px;
+}
+
+#boggyLock{
+      text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6em;
+    color: white;
+      margin-top: -2px;  
+}
+#boggyName{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6em;
+    color: white;
+      /* margin-top: -2px;     */
+}
+#safeBoggy{
+    color:#A9CF54;
 }
