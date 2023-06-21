@@ -39,7 +39,7 @@
       "lock": "Safe"
    },
 "defaultMaterial.011": {
-      "status": "Temperature Attention",
+      "status": "Safe Package",
       "itemCode": "214789",
       "sealDateAndTime": "10 April 23, 05:19 PM",
       "weight": "25 kg",
@@ -104,7 +104,7 @@
       "lock": "Broken"
    },
    "Object_2.011": {
-      "status": "Temperature Attention",
+      "status": "Safe Package",
       "itemCode": "224780",
       "sealDateAndTime": "9 April 23, 02:16 PM",
       "weight": "40 kg",
@@ -123,7 +123,7 @@
       "weight": "39 kg",
       "size": "25L X 28B X 30H",
       "location": "C-A-10",
-      "temperature": "30 °C (Preferred 0 °C to 50 °C)",
+      "temperature": "25 °C (Preferred 0 °C to 50 °C)",
       "preferredTemp": "20 °C to 30 °C",
       "tolerance": "±(0.3 + 0.005|t|)",
       "note": "Glass material so handle it with care",
@@ -143,7 +143,7 @@
       "lock": "Safe"
    },
    "Object_3.013": {
-      "status": "Safe Package",
+      "status": "Unsafe Package",
       "itemCode": "220789",
       "sealDateAndTime": "4 April 23, 05:10 PM",
       "weight": "48 kg",

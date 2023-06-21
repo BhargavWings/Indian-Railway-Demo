@@ -2,6 +2,22 @@
      font-family: 'Poppins';
     src:url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 } */
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin-bottom: 10px;
+    color: lime;
+}
+
+
+span.connection-status {
+    font-size: 10px;
+}
+
 #trainDetails{
     position: absolute;
     bottom: 4%;
